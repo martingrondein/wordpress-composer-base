@@ -26,22 +26,20 @@ cd wordpress-composer-base
 composer install
 ```
 
-3. Copy web/index.php to your project folder
-
-Copy web/index.php to index.php. You can do this from the command line with
+3. Copy web/index.php to your project folder. You can do this from the command line with
 
 ```
-cp wordpress/index.php ./index.php
+cp web/index.php ./index.php
 ```
 
-4. Slightly modify index.php in your project root
-The index.php in the root of your project (the one you just created via a copy command) should be modified.
+4. Slightly modify index.php in your project root. The index.php in the root of your project (the one you just created via a copy command) should be modified.
+
 ```
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
 ```
 becomes
 ```
-require( dirname( __FILE__ ) . '/wordpress/wp-blog-header.php' );
+require( dirname( __FILE__ ) . '/web/wp-blog-header.php' );
 ```
 --- 
 Please note: This is a no-frills composer.json template.
