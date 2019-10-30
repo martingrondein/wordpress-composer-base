@@ -34,10 +34,11 @@ cp web/index.php ./index.php
 
 4. Slightly modify index.php in your project root. The index.php in the root of your project (the one you just created via a copy command) should be modified.
 
+So...
 ```
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
 ```
-becomes
+... becomes ...
 ```
 require( dirname( __FILE__ ) . '/web/wp-blog-header.php' );
 ```
