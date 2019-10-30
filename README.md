@@ -10,6 +10,8 @@ A bare minimum composer template for setting up and managing a WordPress project
 - Git
 - Composer
 
+### Steps:
+
 1. Clone this repository into your website projects folder:
 
 ```
@@ -22,5 +24,5 @@ git clone git@github.com:martingrondein/wordpress-composer-base.git
 cd wordpress-composer-base
 composer install
 ```
-
+--- 
 Please note: This is a no-frills composer.json template.
