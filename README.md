@@ -4,7 +4,7 @@ A bare minimum composer template for setting up and managing a WordPress project
 
 ## How To Setup:
 
-Requirements:
+### Requirements:
 ---
 - Server with PHP / Apache (or Nginx) / MySQL (or PostreSQL)
 - Git
